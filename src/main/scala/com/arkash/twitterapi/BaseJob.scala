@@ -13,10 +13,10 @@ import twitter4j.conf.ConfigurationBuilder
 object BaseJob {
   def main(args: Array[String]): Unit = {
 
-    val consumerKey = "EwGQXqJ1zf7BuZ3yF6wrxpj20" // Your consumerKey
-    val consumerSecret = "jFyuAkJ5vcjBbKU7Uwcdo0kDokFSIfQqLgRJZ8Lk8IBTY9SNYD" // your API secret
-    val accessToken = "1306832472026624000-oJiaSiPL7eZ8GTAPpGchiog02WWn3G" // your access token
-    val accessTokenSecret = "DoxjBC8MCsIJOOi39TNz9FZUrDqPXK0fbwziMRaw7SUY5" // your token secret
+    val consumerKey = "" // Your consumerKey
+    val consumerSecret = "" // your API secret
+    val accessToken = "" // your access token
+    val accessTokenSecret = "" // your token secret
 
     val cb = new ConfigurationBuilder
     cb.setDebugEnabled(true).setOAuthConsumerKey(consumerKey).setOAuthConsumerSecret(consumerSecret).setOAuthAccessToken(accessToken).setOAuthAccessTokenSecret(accessTokenSecret)
